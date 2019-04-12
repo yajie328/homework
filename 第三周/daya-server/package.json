@@ -1,0 +1,26 @@
+{
+  "name": "daya-server",
+  "version": "1.0.5",
+  "description": "create http-server at localhost",
+  "main": "server.js",
+  "bin": {
+    "myserver": "www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http-server",
+    "self-http-server"
+  ],
+  "repository": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "ejs": "^2.6.1",
+    "mime": "^2.4.2",
+    "mz": "^2.7.0"
+  }
+}
